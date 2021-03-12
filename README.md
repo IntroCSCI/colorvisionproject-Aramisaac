@@ -1,8 +1,8 @@
-# !!!Replace with your unique project name!!!
+# Palet Color Generator 
 
 ## Description
 
-!!!Replace with a description of what your program does!!!
+This program asks the user for "more than 2 colors" to create a file and stores that information in the file. Once the file is sucesfully created, it asks the user if the want to see what is inside of the file, if the user inputs "Y" the program displays the content inside of the file, when the user decides to not open the file,  the program tells the user to have a good day. 
 
 ### v0.2 Updates
 
@@ -15,7 +15,7 @@
 
 ## Developer
 
-!!!Replace with your name!!!
+Aram
 
 ## Example
 
@@ -29,30 +29,45 @@ g++ --std=c++11 *.cpp -o cvp
 Here is an example of the program running:
 
 ```
-!!!Replace with an example of the program running with user interaction!!!
+Hey there! please enter more than 2 colors of your choice.
+Azul Y Rojo
+How would you like to name this file?
+Prueba
+File created succefully.
+Would you like to review your colors? please enter Y/N
+a
+Would you like to review your colors? please enter Y/N
+s
+Would you like to review your colors? please enter Y/N
+d
+Would you like to review your colors? please enter Y/N
+Y
+what file you want to open?
+Prueba
+Azul Y Rojo
 ```
 
 ## C++ Guide
 
 ### Variables and Data Types
 
-!!!Replace with a summary and examples of how multiple variables have been used with a variety of data types and why they have been used effectively and appropriately!!!
+We have used 3 data types in this program; string, fstream, and char. We have also used 5 different variable to store the inputs of the user and 1 variable to name the fstream function of the program.
 
 ### Console Input and Output
 
-!!!Replace with a summary and examples of how input and output have been used effectively and appropriately!!!
+The console asks the user to input information and continues asking the user for more information, and ouputs what the user have had entered.
 
 ### Decisions
 
-!!!Replace with a summary and examples of how multiple decision constructs have been used effectively and appropriately!!!
+We have decided to make the program diplay the names of the color that you entered so you can confirm that you have entered the right colors, we have also decided to give the option to the user to not display the colores that they already entered.
 
 ### Iteration
 
-!!!Replace with a summary and examples of how iteration has been used effectively and appropriately!!!
+When this program asks the user if the would like to review the color and they enter somthing that is not Y or N, the program would keep asking the person to enter N or Y to continue with the process.
 
 ### File Input and Output
 
-!!!Replace with a summary and examples of how input and/or output of files have been used effectively and appropriately!!!
+This program asks the user to input colors top store that information in a folder that would diplay if the user inputs that they would like to display the folder.
 
 ### Arrays/Vectors
 
