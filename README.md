@@ -10,7 +10,7 @@ This programs gets a number from the user which needs to be greater than 2, this
 
 ### v1.0 Updates
 
-*Coming soon*
+For this update, I have updated the functionality of the function "userSugestion", this fuction now can suggest a number to the usser if they wish to, this function will provide a random number from 3 to 9. For this update, I have also created a project.cpp file as well as a project.h file withe the porpuse to create a class for this project. With this update, you can now enter a number between 3 to 100 as a vlaid input number for the project, the program now will ask you to enter a valid number.
 
 
 ## Developer
@@ -80,8 +80,75 @@ lessThan
 #41CEG2
 #8G4ED6
 #CB070B
-
-```
+//////////////////////////////////V1.0 example/////////////////////////////////////////////
+Hey there! how many colors would you like to have on your palet (Please enter 2+ and > 100)?
+Please enter '0' if you woul like us to suggest you a number :)
+0
+The sugested number is 7
+How would you like to name your palette?
+suggestedNum
+File created succefully.
+Would you like to review your colors? please enter Y/N
+Y
+what file you want to open?
+suggestedNum
+#58A0GD
+#2D5253
+#BF228G
+#C58FCB
+#21D718
+#3E844F
+#7E237F
+//////////////////////////////////V1.0 example/////////////////////////////////////////////
+Hey there! how many colors would you like to have on your palet (Please enter 2+ and > 100)?
+Please enter '0' if you woul like us to suggest you a number :)
+1
+it looks like we need more than 2 colors
+Hey there! how many colors would you like to have on your palet (Please enter 2+ and > 100)?
+Please enter '0' if you woul like us to suggest you a number :)
+2
+it looks like we need more than 2 colors
+Hey there! how many colors would you like to have on your palet (Please enter 2+ and > 100)?
+Please enter '0' if you woul like us to suggest you a number :)
+3
+How would you like to name your palette?
+lessThan3
+File created succefully.
+Would you like to review your colors? please enter Y/N
+Y
+what file you want to open?
+lessThan3
+#F6831G
+#EDE2E3
+#33AC7A
+//////////////////////////////////V1.0 example/////////////////////////////////////////////
+Hey there! how many colors would you like to have on your palet (Please enter 2+ and > 100)?
+Please enter '0' if you woul like us to suggest you a number :)
+7       
+How would you like to name your palette?
+validNum
+File created succefully.
+Would you like to review your colors? please enter Y/N
+Y 
+what file you want to open?
+validNum
+#FDF75B
+#728F2C
+#D553D7
+#737B57
+#0A0730
+#A83F6G
+#G58FB2
+//////////////////////////////////V1.0 example/////////////////////////////////////////////
+Hey there! how many colors would you like to have on your palet (Please enter 2+ and > 100)?
+Please enter '0' if you woul like us to suggest you a number :)
+7 
+How would you like to name your palette?
+don'tReview
+File created succefully.
+Would you like to review your colors? please enter Y/N
+N
+Have a good day!
 
 ## C++ Guide
 
@@ -111,8 +178,9 @@ We decided to used arrays since the value of the hexadecimal would always stay t
 
 ### Functions
 
-In this program, we declered 2 different functions, pass by value and pass by reference. Our pass by value function is used to generate the hexdecimal value for our program. Our pass by reference function will change the input from the user.
+In this program, we declered 2 different functions, pass by value and pass by reference. Our pass by value function is used to generate the hexdecimal value for our program. Our pass by reference function will provide the user a random number if they wish to do so.
 
 ### Classes
+I have made project.cpp and project.h with the porpuse of creating a class. With this class, you can access private values and piblic functions fot his project. With the use of this class, the code is easier to read an more understandable.
 
 *Coming in version 1.0*
